@@ -78,7 +78,12 @@ flowchart TD
   </tr>
 </table>
 
-<h2 id="install">Installation</h2>
+# Q-Learning (off-policy)
+    Q(s,a) ← Q(s,a) + α[r + γ max Q(s',a') - Q(s,a)]
+
+# SARSA (on-policy) 
+    Q(s,a) ← Q(s,a) + α[r + γ Q(s',a') - Q(s,a)]
+    <h2 id="install">Installation</h2>
 
 # Cloner le dépôt
     git clone https://github.com/ennajari/reinforcement-learning.git
@@ -128,3 +133,8 @@ flowchart TB
     
     TP1 --> TP2 --> TP3
 ```
+
+
+<pre>
+École Nationale de l'Intelligence Artificielle et du Digital
+Professeur : Mohamed Khalifa BOUTAHIR </pre>
