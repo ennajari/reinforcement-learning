@@ -7,7 +7,7 @@
 </div>
 
 ## Table des Matières
-<!-- HTML version for better control -->
+```html
 <div class="toc">
   <ul>
     <li><a href="#tp1">TP1: Découverte de Gymnasium</a></li>
@@ -17,7 +17,7 @@
     <li><a href="#install">Installation</a></li>
   </ul>
 </div>
-
+```
 <h2 id="tp1">TP1: Découverte de Gymnasium et CartPole</h2>
 
 ### 🎯 Objectifs
