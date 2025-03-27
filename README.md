@@ -32,31 +32,29 @@
 
 ### 📝 Code Clé
 ### Création de l'environnement
-import gymnasium as gym
-env = gym.make("CartPole-v1", render_mode="human")
-observation, info = env.reset()
+    import gymnasium as gym
+    env = gym.make("CartPole-v1", render_mode="human")
+    observation, info = env.reset()
 
 ### Boucle d'interaction
-for _ in range(100):
-    action = env.action_space.sample()  # Action aléatoire
-    observation, reward, terminated, truncated, info = env.step(action)
-    
-    if terminated or truncated:
-        observation, info = env.reset()
+    for _ in range(100):
+        action = env.action_space.sample()  # Action aléatoire
+        observation, reward, terminated, truncated, info = env.step(action)
+        
+        if terminated or truncated:
+            observation, info = env.reset()
         
 ### 🔄 Workflow CartPole
+
 ```mermaid
 flowchart TD
-    A[Début] --> B[Créer environnement]
-    B --> C[Réinitialiser environnement]
-    C --> D[Choisir action]
--   D --> E[Exécuter action]
-+   D --> E["Exécuter action"]  # Les guillemets aident avec les espaces
-    E --> F{Terminé?}
--   F -- Non --> D
--   F -- Oui --> C
-+   F -->|Non| D
-+   F -->|Oui| C
+    A["[Début]"] --> B["[Créer environnement]"]
+    B --> C["[Réinitialiser environnement]"]
+    C --> D["[Choisir action]"]
+    D --> E["[Exécuter action]"]
+    E --> F{"[Terminé ?]"}
+    F -->|Non| D
+    F -->|Oui| C
 ```
 ### 📈 Tableau Comparatif
 <table>
