@@ -102,7 +102,10 @@ flowchart TD
     <li>🚦 Meilleure politique: Q-Learning pour les performances, SARSA pour la sécurité</li>
   </ul>
 </div>
-
+<div align="center">
+    <img src="https://github.com/ennajari/reinforcement-learning/blob/main/output.png" alt="output.png">
+  </a>
+</div>
 <h2 id="workflows">Workflows Complets</h2>
 
 ### Workflow Global du Projet
