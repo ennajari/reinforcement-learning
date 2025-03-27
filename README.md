@@ -41,10 +41,10 @@
 <h2 id="tp2">TP2: Q-Learning sur FrozenLake</h2>
 
 ## 🧠 Algorithme Principal
-# Initialisation Q-Table
+### Initialisation Q-Table
 q_table = np.zeros((num_states, num_actions))
 
-# Mise à jour Q-Learning
+### Mise à jour Q-Learning
 q_table[state, action] += alpha * (reward + gamma * np.max(q_table[next_state]) - q_table[state, action])
 
 ## 📊 Résultats
