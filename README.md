@@ -68,29 +68,29 @@ flowchart TD
     <td>Q-Learning</td>
     <td>42.7 ± 3.2</td>
     <td>⭐⭐⭐⭐</td>
-    <td>45 min</td>
+    <td>3 min</td>
   </tr>
   <tr>
     <td>SARSA</td>
     <td>39.1 ± 2.8</td>
     <td>⭐⭐⭐⭐⭐</td>
-    <td>52 min</td>
+    <td>5 min</td>
   </tr>
 </table>
 
 <h2 id="install">Installation</h2>
 
 # Cloner le dépôt
-git clone https://github.com/ennajari/reinforcement-learning.git
-cd reinforcement-learning
+    git clone https://github.com/ennajari/reinforcement-learning.git
+    cd reinforcement-learning
 
 # Installer les dépendances
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 # Exécuter les TPs
- tp1.ipynb  # CartPole
- tp2.ipynb  # FrozenLake
- tp3.ipynb  # Traffic Management
+     tp1.ipynb  # CartPole
+     tp2.ipynb  # FrozenLake
+     tp3.ipynb  # Traffic Management
 
 <h2 id="results">Résultats Clés</h2>
 
@@ -125,4 +125,45 @@ flowchart TB
     
     TP1 --> TP2 --> TP3
 ```
-<style> .toc ul { list-style-type: none; padding-left: 0; } .highlight { background-color: #f8f8f8; padding: 15px; border-radius: 8px; border-left: 4px solid #4285f4; } table { border-collapse: collapse; width: 100%; margin: 20px 0; box-shadow: 0 2px 3px rgba(0,0,0,0.1); } th, td { border: 1px solid #ddd; padding: 12px; text-align: left; } th { background-color: #f2f2f2; position: sticky; top: 0; } tr:nth-child(even) {background-color: #f9f9f9;} tr:hover {background-color: #f1f1f1;} </style>
+
+<style>
+  .toc ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .highlight {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #4285f4;
+    margin: 15px 0;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    position: sticky;
+    top: 0;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+</style>
