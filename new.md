@@ -695,7 +695,7 @@ Ajoutez ce code pour visualiser les performances :
     plt.title("Évolution de la Récompense")
     plt.legend()
     plt.grid(True)
-    plt.savefig("training_progress_tpX.png")  # Remplacer X par 1, 2, ou 4
+    plt.savefig("training_progress_tp1.png")  # Remplacer X par 1, 2, ou 4
     ```
 
 #### TP3
