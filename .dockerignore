@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdf
+*.png
+*.ipynb_checkpoints/
+TP7/notebooks/__pycache__/
