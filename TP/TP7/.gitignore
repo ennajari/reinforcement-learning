@@ -1,0 +1,4 @@
+Data/*.npy
+Data/*.pkl
+Data/*.pth
+Data/*.csv
