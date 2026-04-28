@@ -7,5 +7,5 @@ matplotlib==3.7.2
 seaborn==0.12.2
 imbalanced-learn==0.10.1
 gymnasium==0.28.1
-Pillow==12.1.1
+Pillow==12.2.0
 plotly==5.15.0
